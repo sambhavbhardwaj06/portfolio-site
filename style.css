@@ -481,3 +481,69 @@ footer {
   color: #cfcfcf;
   line-height: 1.6;
 }
+/* ==========================================
+   CONTACT ICON STYLING FOR JPG IMAGES
+   ========================================== */
+
+.contact-card img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  border-radius: 4px;   /* prevents JPG corners from looking rough */
+  background: #fff1;    /* soft neutral glow box */
+}
+/* ===========================
+   CONTACT TIMELINE LAYOUT
+   =========================== */
+
+.contact-timeline {
+  position: relative;
+  margin: 40px 0;
+  padding-left: 40px;
+  border-left: 2px solid rgba(255,255,255,0.15);
+}
+
+.contact-item {
+  position: relative;
+  margin-bottom: 35px;
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.contact-dot {
+  position: absolute;
+  left: -11px;
+  width: 14px;
+  height: 14px;
+  background: #1db954;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(29,185,84,0.5);
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.contact-info img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  border-radius: 4px;
+  background: #fff1;
+}
+
+.contact-info a {
+  font-size: 1.05rem;
+  color: #e5e5e5;
+  opacity: 0.9;
+}
+
+.contact-info a:hover {
+  color: #1db954;
+  opacity: 1;
+}
+
