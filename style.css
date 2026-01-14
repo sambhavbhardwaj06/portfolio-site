@@ -351,3 +351,75 @@ section h2 {
     padding-left: 20px;
   }
 }
+/* ============================================
+   PROJECT TIMELINE LAYOUT (NEW CLEAN UI)
+============================================ */
+
+.projects-timeline {
+  position: relative;
+  margin-top: 20px;
+  border-left: 2px solid rgba(255,255,255,0.15);
+  padding-left: 28px;
+}
+
+.project-timeline-item {
+  position: relative;
+  margin-bottom: 35px;
+}
+
+.project-dot {
+  position: absolute;
+  left: -10px;
+  top: 6px;
+  width: 12px;
+  height: 12px;
+  background: #1db954;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(29,185,84,0.5);
+}
+
+.project-content {
+  background: #1a1a1a;
+  padding: 16px;
+  border-radius: 6px;
+}
+
+.project-content h3 {
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+}
+
+.project-content p {
+  margin-bottom: 10px;
+  color: #d0d0d0;
+}
+
+.techline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.techline span {
+  background: #2a2a2a;
+  padding: 5px 8px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+}
+
+.project-link {
+  color: #1db954;
+  font-weight: 600;
+}
+
+.project-link:hover {
+  opacity: 0.8;
+}
+
+/* Mobile spacing */
+@media (max-width: 480px) {
+  .project-content {
+    padding: 14px;
+  }
+}
